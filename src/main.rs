@@ -19,5 +19,5 @@ fn findr(u: f32) -> f32 {
 }
 
 fn main() {
-    println!("{}", findr(STRT));
+    println!("f(x) = (x - 1)(x - 2)(x - 3):\n => f({}) = 0", findr(STRT));
 }
