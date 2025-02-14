@@ -22,7 +22,7 @@ $ cargo install --git https://github.com/edamame-maru/rootrf
 will automatically download and compile the sources. A resulting executable is placed in `~/.cargo/bin/`. 
 
 ## Usage
+`cargo` automatically prepends `. "$HOME/.cargo/env"` to your `.bashrc` post-build:
 ```
 $ rootrf
 ```
-`cargo` automatically prepends `. "$HOME/.cargo/env"` to your `.bashrc`.
