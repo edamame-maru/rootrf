@@ -13,7 +13,7 @@ $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 and follow the on-screen instructions.
 
-On Windows or macOS, follow the instructions on the main [installation page](https://www.rust-lang.org/tools/install
+On Windows or macOS, follow the instructions on the main [installation page](https://www.rust-lang.org/tools/install)
 
 ### Build
 ```
@@ -22,8 +22,7 @@ $ cargo install --git https://github.com/edamame-maru/rootrf
 will automatically download and compile the sources. A resulting executable is placed in `~/.cargo/bin/`. 
 
 ## Usage
-Run:
 ```
 $ rootrf
 ```
-as a standard user. `cargo` automatically prepends `. "$HOME/.cargo/env"` to your `.bashrc`.
+`cargo` automatically prepends `. "$HOME/.cargo/env"` to your `.bashrc`.
