@@ -13,7 +13,13 @@ $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 and follow the on-screen instructions.
 
-On Windows or macOS, follow the instructions on the main [installation page](https://www.rust-lang.org/tools/install)
+On Windows or macOS, follow the instructions on the main [installation page.](https://www.rust-lang.org/tools/install)
+
+When using binaries, make sure to change permissions with:
+```
+$ chmod +x /path/to/rootrf
+```
+before execution.
 
 ### Build
 ```
