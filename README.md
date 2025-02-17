@@ -35,4 +35,4 @@ $ rootrf 2 5 3
 [2.0, 5.0, 3.0]
 => -1.0000001
 ```
-by default, `rootrf` will output the root closest to zero.
+By default, `rootrf` will output the root closest to zero.
