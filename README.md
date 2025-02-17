@@ -24,5 +24,15 @@ will automatically download and compile the sources. A resulting executable is p
 ## Usage
 `cargo` automatically prepends `. "$HOME/.cargo/env"` to your `.bashrc` post-build:
 ```
-$ rootrf
+$ rootrf <arg1> <arg2>
+```
+
+## Syntax
+`rootrf` finds roots for any polynomial. Follow `rootrf` with the coefficients of the polynomial by descending order. The last argument is the constant term. For example:
+$$2x^2 + 5x + 3$$ would be
+
+```
+$ rootrf 2 5 3
+[2.0, 5.0, 3.0]
+=> -1.0000001
 ```
