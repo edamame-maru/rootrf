@@ -33,7 +33,7 @@ will automatically download and compile the sources. The resulting executable is
 $ rootrf <arg1> <arg2>
 ```
 
-## Syntax
+### Syntax
 `rootrf` finds roots for any polynomial. Follow `rootrf` with the coefficients of the polynomial by descending order. The last argument is the constant term. For example, $$2x^2 + 5x + 3$$ would be:
 
 ```
@@ -42,3 +42,9 @@ $ rootrf 2 5 3
 => -1.0000001
 ```
 By default, `rootrf` will output the root closest to zero.
+
+## Uninstall
+`cargo` cleans the Rust binary from `~/.cargo/bin/` with the following command:  
+```
+$ cargo uninstall rootrf
+```
