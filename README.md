@@ -2,7 +2,7 @@
 `rootrf` is an open source utility that finds roots of simple polynomials.
 
 ## Installation
-Users are recomended to build from source. A small number of binary packages are available for downloade on the [releases](https://github.com/edamame-maru/rootrf/releases) page. 
+Users are recomended to build from source. A small number of binary packages for `x86-64` Linux are available for download on the [releases](https://github.com/edamame-maru/rootrf/releases) page. 
 
 ### Prerequisites
 Download `rustup` and install Rust.
@@ -25,7 +25,7 @@ before execution.
 ```
 $ cargo install --git https://github.com/edamame-maru/rootrf
 ```
-will automatically download and compile the sources. A resulting executable is placed in `~/.cargo/bin/`. 
+will automatically download and compile the sources. The resulting executable is placed in `~/.cargo/bin/`. 
 
 ## Usage
 `cargo` automatically prepends `. "$HOME/.cargo/env"` to your `.bashrc` post-build:
