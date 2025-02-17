@@ -29,5 +29,5 @@ fn main() {
         x = -(c / m);
     }
 
-    println!("{}", x);
+    println!("=> {}", x);
 }
