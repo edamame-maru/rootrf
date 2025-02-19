@@ -16,7 +16,7 @@ fn main() {
     let mut current: f32 = 0.0;
 
     // forward is not initialised because we don't need it later
-    let mut forward: f32; 
+    let mut forward: f32;
 
     for _ in 0..100000 {
         current = 0.0;
