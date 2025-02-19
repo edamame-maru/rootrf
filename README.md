@@ -38,7 +38,7 @@ $ rootrf <arg1> <arg2>
 
 ```
 $ rootrf 2 5 3
-[2.0, 5.0, 3.0]
+f(x) = 2x^2 + 5x + 3
 => -1.0000001
 ```
 By default, `rootrf` will output the root closest to zero.
