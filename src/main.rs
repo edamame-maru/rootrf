@@ -1,7 +1,7 @@
 use std::env;
 
 fn main() {
-    // easier to deal with cmdline arguments
+    // cli arguments
     let args: Vec<String> = env::args().collect();
     let mut coeffs: Vec<f32> = vec![];
 
